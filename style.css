@@ -1,42 +1,62 @@
 #animal-list li {
   cursor: pointer;
-  padding: 8px 12px;
+  padding: 8px 15px;
   list-style: none;
-  margin: 5px 0;
-  background: local#e9ecef;
+  margin: 9px 0;
+  background-color: #ad8cab;
   border-radius: 6px;
   transition: 0.3s;
 }
 
 #animal-list li:hover {
-  background-color: lightgray;
+  background-color: rgb(240, 237, 241);
 }
-#animal-details img {
+#selected-animal img {
   width: 200px;
   border-radius: 10px;
+  
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: Arial, sans-serif;
   background-color: lightgray;
   margin: 0;
   padding: 20px;
   color: #333;
+  align-items:center ;
 }
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #886969;
   margin-bottom: 20px auto;
   font-size: 2.5rem;
 }
 h2 {
-  color: #555;
+  color: #9353a3;
   margin-top: 20px;
 }
 
 #animal-list {
   list-style-type: none;
   padding: 0;
+  max-width: 200px;
   margin: 0;
+  margin-bottom: 0 auto 20px;
+}
+
+#selected-animals{
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#vote-btn:hover {
+  background-color: #5a1454;
 }
